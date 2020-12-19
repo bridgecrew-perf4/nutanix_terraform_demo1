@@ -1,0 +1,9 @@
+.git
+.terraform
+.terraform.lock.hcl
+.DS_Store
+terraform.tfstate
+terraform.tfstate.backup
+provider.tf
+cloud-init.tpl
+crash.log
