@@ -7,11 +7,11 @@ variable "vmname" {
 }
 
 variable "cluster_name" {
-  default = "DevOps-AOS5.17.1-auto_cluster_nested_5f50aeca82e14f9bf989ad2b"
+  default = "cluster1"
 }
 
 variable "subnet_name" {
-  default = "IPAM-10.129.44.0/24"
+  default = "subnet1"
 }
 
 variable "image_name" {
@@ -19,5 +19,5 @@ variable "image_name" {
 }
 
 variable "s3-backend-bucket" {
-  default = "devops-nutanix-terraform-state"
+  default = "cluster1-nutanix-terraform-state"
 }
